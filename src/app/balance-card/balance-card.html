@@ -1,0 +1,10 @@
+<div class="card">
+    <h2>Welcome {{ username }}</h2>
+
+
+    <h3>Your account balance</h3>
+    <h1>{{ balance }}</h1>
+
+
+    <button (click)="withdrawMoney()" [disabled]="balance < 100">Withdraw</button>
+</div>

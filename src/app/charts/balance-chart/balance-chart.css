@@ -1,0 +1,51 @@
+
+:host {
+    display: block;
+    padding: 24px;
+    background: #f3f4f6;
+    min-height: 100vh;
+  }
+  
+  .balance-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 24px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+  }
+  
+  .balance-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+  
+  .balance-label {
+    color: #6b7280;
+    font-size: 14px;
+    margin: 0 0 8px;
+  }
+  
+  .balance-header h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #111827;
+    margin: 0;
+  }
+  
+  .balance-status {
+    background: #dcfce7;
+    color: #15803d;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .chart-container {
+    width: 100%;
+    min-height: 320px;
+  }
+  

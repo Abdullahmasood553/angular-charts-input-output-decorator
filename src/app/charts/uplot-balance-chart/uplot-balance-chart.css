@@ -1,0 +1,19 @@
+
+.chart-container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 12px;
+  }
+  
+  .chart-container h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .chart-host {
+    width: 100%;
+    min-width: 0;
+  }
+  
